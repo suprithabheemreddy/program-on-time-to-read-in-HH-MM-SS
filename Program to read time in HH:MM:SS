@@ -1,0 +1,39 @@
+#include<iostream>
+#include<iomainp>
+using namespace std;
+class time
+{
+private:
+int seconds;
+int hh,mm,ss;
+public
+void get time (void);
+void convert into seconds(void);
+void displaytime(void);
+};
+void time::get time (void)
+{
+count<<"enter time:"<<end|;
+count<<"house?";cin>>hh;
+count<<"minutes?";cin>>mm;
+count<<"seconds?";cin>>ss;
+}
+void time::convert into seconds (void)
+{
+seconds=hh*3600+mm*60+ss;
+}
+void time:: display time(void)
+{
+count<<"the time is ="<<setw(2)<<setf(1)('0')<<hh<<":"
+<<setw(2)<<setf(1)('0')<<mm<<":"
+<<set(2)<<set3(0)<<ss<<end|"
+count<<"time in total seconds:"<<seconds;
+}
+int main()
+{
+time T 
+T.gettime ();
+T.convert in to seconds();
+T.diaplay time();
+return 0;
+}
